@@ -29,18 +29,18 @@
                   <p style="text-align:center">
                     <name>Zexin HE</name>
                   </p>
-                  <p>
+                  <p align="justify">
                     I am currently a first-year Ph.D. student at <a
                       href="https://www.cuhk.edu.hk/english/index.html">the Chinese University of Hong Kong</a>, advised
                     by <a href="https://jiaya.me">Prof. Jiaya Jia</a>.
                   </p>
-                  <p>
+                  <p align="justify">
                     I received my B.Eng. degree at the Honors College of <a href="https://ev.buaa.edu.cn">Beihang
                       University</a>, where I was a research intern at <a href="http://colalab.net">Cola Laboratory</a>.
                     I've also spent a wonderful time as an intern at <a
                       href="https://www.sensetime.com/en/technology-achievements">SenseTime Research</a>.
                   </p>
-                  <p>
+                  <p align="justify">
                     My research interests lie primarily in Computer Vision and Machine Learning, mainly focusing on
                     Radiance Fields and Generative Models. I also have a broad interest in Bayesian Machine Learning and
                     Computational Arts.
@@ -76,6 +76,57 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+
+              <!-- 2.3 Ref-NPR -->
+              <tr onmouseout="refnpr_stop()" onmouseover="refnpr_start()">
+                <td style="padding:20px;width:35%;vertical-align:middle;text-align:middle">
+                  <div class="one" style="display: inline;">
+                    <div class="two" id="refnpr_image" style="display: inline;">
+                      <img src="images/refnpr_annimation.gif" alt="Annimation for Ref-NPR" width="320" height="180">
+                    </div>
+                    <img src="images/refnpr_cover.png" alt="Cover Image for Ref-NPR" width="320" , height="180">
+                  </div>
+                  <script type="text/javascript">
+                    function refnpr_start() {
+                      document.getElementById('refnpr_image').style.opacity = "1";
+                    }
+
+                    function refnpr_stop() {
+                      document.getElementById('refnpr_image').style.opacity = "0";
+                    }
+                    refnpr_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:65%;vertical-align:middle">
+                  <a href="https://ref-npr.github.io/">
+                    <papertitle>Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields
+                    </papertitle>
+                  </a>
+                  <br>
+                  <a href="https://julianjuaner.github.io/">Yuechen Zhang</a>,
+                  <strong>Zexin He</strong>,
+                  Jinbo Xing, Xufeng Yao,
+                  <a href="https://jiaya.me/">Jiaya Jia</a>.
+                  <br>
+                  <p></p>
+                  <em>arXiv Preprint</em>, 2022
+                  <br>
+                  <a href="https://arxiv.org/abs/2212.02766">Paper</a>
+                  /
+                  <a href="https://ref-npr.github.io/">Project Page</a>
+                  <!-- /
+                  <a href="https://huggingface.co/spaces/CVPR/Bamboo_ViT-B16_demo">Demo</a>
+                  /
+                  <a href="https://github.com/Davidzhangyuanhan/Bamboo">Code</a>
+                  <img alt="GitHub Repo stars"
+                    src="https://img.shields.io/github/stars/Davidzhangyuanhan/Bamboo?style=social"> -->
+                  <p></p>
+                  <p align="justify">
+                    We present a controllable scene stylization paradigm to stylize a 3D scene with a single stylized 2D view as reference.
+                    Ref-NPR propagates 2D style to 3D radiance fields and obtains high visual quality and visual correspondence.
+                  </p>
+                </td>
+              </tr>
 
               <!-- 2.2 Bamboo -->
               <tr onmouseout="bamboo_stop()" onmouseover="bamboo_start()">
@@ -125,7 +176,7 @@
                   <img alt="GitHub Repo stars"
                     src="https://img.shields.io/github/stars/Davidzhangyuanhan/Bamboo?style=social">
                   <p></p>
-                  <p>
+                  <p align="justify">
                     We build a mega-scale information-dense dataset for both classification and detection with active
                     learning, which is 4 times larger than ImageNet and 2 times larger than Object365.
                   </p>
@@ -180,7 +231,7 @@
                   <img alt="GitHub Repo stars"
                     src="https://img.shields.io/github/stars/wzk1015/video-bgm-generation?style=social">
                   <p></p>
-                  <p>
+                  <p align="justify">
                     Generate background music from an arbitrary video clip by establishing the correspondence between
                     music features and video features as well as proposing a targeted music symbolic representation.
                   </p>
